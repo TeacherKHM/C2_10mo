@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+}
+.sideBar{
+    width: 10%;
+    background-color: blue;
+    color: white;
+}
+.box{
+background-color: aqua;
+margin: 10px;
+}
+.maincontainer{
+    background-color: aquamarine;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    
+}
+.header{
+    display: flex;
+}
+
+.title{
+    width: 70%;
+    border: solid black;
+}
+.Title{
+    width: 100%;
+}
+.userinfo{
+    width: 30%;
+    border: solid;
+}
+.bodyContent{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:white;
+    border: solid 1px;
+    width: 30%;
+    margin: 5px;
+}
+
+.card:nth-child(4){
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.card:nth-child(4) span{
+    width: 100%;
+}

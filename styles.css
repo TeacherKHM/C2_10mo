@@ -1,0 +1,21 @@
+body{
+    display:flex;
+}
+div{
+    display: block;
+}
+h1{
+    color: red;
+    display: block;
+}
+
+a{
+    display: block;
+    color: black;
+}
+
+p{
+    background-color: aqua;
+    border: 2px solid black; 
+    margin: 0;
+}

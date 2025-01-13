@@ -1,0 +1,18 @@
+body{
+    width: 80vw;
+}
+.Bibliografia{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 10px;
+}
+nav{
+    width: 100%;
+}
+.Bibliografia div{
+    width: 80%;
+}
+.Bibliografia img{
+    width: 20%;
+}
